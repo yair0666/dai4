@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puesta de sol</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            background: linear-gradient(to bottom, #000033, #330066, #660099, #9933cc, #ff99cc, #ffcc00, #ff6600); /* Gradiente de colores */
+            position: relative;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        .sun {
+            position: absolute;
+            top: 20%;
+            left: 20%;
+            width: 20vmin; /* Tamaño relativo para verse bien en dispositivos móviles */
+            height: 20vmin; /* Tamaño relativo para verse bien en dispositivos móviles */
+            background: radial-gradient(circle at 50% 50%, #ffcc00, transparent);
+            border-radius: 50%;
+            box-shadow: 0 0 10vmin 5vmin #ffcc00; /* Tamaño relativo para verse bien en dispositivos móviles */
+        }
+        .text {
+            position: absolute;
+            bottom: 15vmin; /* Posición relativa para verse bien en dispositivos móviles */
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80%;
+            padding: 2vmin; /* Tamaño relativo para verse bien en dispositivos móviles */
+            background: rgba(0, 0, 0, 0.5);
+            border-radius: 2vmin; /* Tamaño relativo para verse bien en dispositivos móviles */
+            font-size: 4vmin; /* Tamaño relativo para verse bien en dispositivos móviles */
+            line-height: 1.5;
+        }
+        .link {
+            display: block;
+            margin-top: 2vmin; /* Espacio entre el texto y el enlace */
+            color: #fff; /* Color del enlace */
+            text-decoration: none; /* Quitar subrayado del enlace */
+            font-size: 3vmin; /* Tamaño relativo para verse bien en dispositivos móviles */
+        }
+    </style>
+</head>
+<body>
+    <div class="sun"></div>
+    <div class="text">
+        Dairita, en cada puesta de sol encuentro un pedacito de ti, porque tu belleza rivaliza con la del cielo al despedirse del día.
+        <a class="link" href="https://open.spotify.com/track/52mWQrfFlL8LS92GSBsirH?si=8NxaEjUmR5O5gwmDpFlZeA">Click aqui porfa</a>
+    </div>
+</body>
+</html>
